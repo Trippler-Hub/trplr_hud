@@ -835,7 +835,7 @@ const playerHud = {
                 this.showHealth = true;
             }
             if (data.playerDead === false) {
-                this.healthColor = "#3FA554";
+                this.healthColor = "#fff";
             } else {
                 this.healthColor = "#ff0000";
                 this.health = 100;
@@ -852,9 +852,9 @@ const playerHud = {
             }
 
             if (data.armor <= 0) {
-                this.armorColor = "#FF0000";
+                this.armorColor = "#ffffff7a";
             } else {
-                this.armorColor = "#326dbf";
+                this.armorColor = "#fff";
             }
 
             if (data.dynamicHunger == true) {
@@ -867,11 +867,11 @@ const playerHud = {
                 this.showHunger = true;
             }
             if (data.hunger >= 100) {
-                this.hungerColor = "#dd6e14";
+                this.hungerColor = "#fff";
             } else if (data.hunger <= 30) {
-                this.hungerColor = "#ff0000";
+                this.hungerColor = "#ffffff7a";
             } else {
-                this.hungerColor = "#dd6e14";
+                this.hungerColor = "#fff";
             }
 
             if (data.dynamicThirst == true) {
@@ -884,11 +884,11 @@ const playerHud = {
                 this.showThirst = true;
             }
             if (data.thirst >= 100) {
-                this.thirstColor = "#1a7cad";
+                this.thirstColor = "#fff";
             } else if (data.thirst <= 30) {
-                this.thirstColor = "#ff0000";
+                this.thirstColor = "#ffffff7a";
             } else {
-                this.thirstColor = "#1a7cad";
+                this.thirstColor = "#fff";
             }
 
             if (data.dynamicStress == true) {
@@ -927,11 +927,11 @@ const playerHud = {
                 }
             }
             if (data.engine <= 45) {
-                this.engineColor = "#ff0000";
+                this.engineColor = "#ffffff7a";
             } else if (data.engine <= 75 && data.engine >= 46) {
-                this.engineColor = "#dd6e14";
+                this.engineColor = "#fff";
             } else if (data.engine <= 100) {
-                this.engineColor = "#3FA554";
+                this.engineColor = "#fff";
             }
 
             if (data.dynamicNitro == true) {
@@ -1015,7 +1015,7 @@ const vehHud = {
         return {
             speedometer: 66,
             fuelgauge: 69,
-            altitudegauge: 75,
+            altitudegauge: 62,
             fuel: 0,
             speed: 0,
             seatbelt: 0,

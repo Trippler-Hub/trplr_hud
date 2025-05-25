@@ -1,7 +1,10 @@
 .responsive {
     position: absolute !important;
 }
-
+@font-face {
+    font-family: "Digital";
+    src: url("./digital-7.ttf") format("OpenType");
+}
 @media (min-width: 800px) {
     .responsive {
         margin-left: 32vh !important;
@@ -446,10 +449,10 @@
         bottom: 6.9vh !important;
     }
     .q-ml-xl {
-        font-size: 50px;
+        font-size: 48px;
     }
     #Speedo {
-        font-size: 70px !important;
+        font-size: 180px !important;
     }
     #FuelGaugeBackground {
         font-size: 36px;
@@ -465,32 +468,40 @@
     }
     #speedometer {
         position: relative;
-        left: 2.5vh !important;
+        left: 115vh !important;
     }
     #fuelgauge {
         position: relative;
-        left: 7.2vh !important;
-        bottom: 6.6vh !important;
+        left: 121.7vh !important;
+        bottom: 16.6vh !important;
     }
     #altitudegauge {
         position: relative;
-        left: 11vh !important;
+        left: 128vh !important;
+        font-family: Digital !important;
     }
     #seatbelt {
         position: relative;
-        left: 8.5vh !important;
+        left: 119.5vh !important;
+        bottom: 4.5vh !important;
     }
     speed {
-        font-size: 2vh !important;
+        font-size: 5.4lvh !important;
+        top: 2vh !important;
+        left: 1.95rem !important;
+        right: 3.95rem !important;
+        font-family: Digital !important;
     }
     speed:after {
-        font-size: 1.2vh !important;
+        font-family: Roboto !important;
+        font-size: 1.3vh !important;
     }
     altitude {
         font-size: 2vh !important;
     }
     altitude:after {
         font-size: 0.9vh !important;
+        font-family: Roboto !important;
     }
     .square {
         left: 2.5vh !important;
