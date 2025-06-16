@@ -24,3 +24,5 @@ files {
     'html/responsive.css',
     'html/app.js',
 }
+
+provide 'qb-hud'
