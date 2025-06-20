@@ -1,5 +1,6 @@
 # Preview
-![image](https://github.com/user-attachments/assets/2229e9f8-746b-48db-af20-b97ace723eb7)
+![Screenshot 2025-06-03 161147](https://github.com/user-attachments/assets/5f5892fd-25d1-485a-90f8-3f99b9589f08)
+
 
 # Things you should know:
 * To open the menu in-game the **default key** is **"I"** or you can type **"/menu"**
